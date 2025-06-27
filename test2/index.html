@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <p>bootstrap</p>
+      <p>task 1</p>
+
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Test 2</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#bst1"
+                  >bootstrap</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#jst">java script</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " " href="#csstask"
+                  >css</a
+                >
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="bst1">
+        <div class="container p-3">
+          <p>task 2</p>
+          <div class="row d-flex justify-content-center">
+            <div
+              class="card col-12 col-sm-6 col-md-3 col-lg-2 m-auto mt-3 mt-md-0"
+              style="
+                background-color: burlywood;
+                box-shadow: 0 0 2rem rgb(106, 105, 105);
+              "
+            >
+              <div class="card-body">
+                <h5 class="card-title">Java</h5>
+                <p class="card-text" >
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card col-12 col-sm-6 col-md-3 col-lg-2 m-auto mt-3 mt-md-0" style="
+                background-color: burlywood;
+                box-shadow: 0 0 2rem rgb(106, 105, 105);
+              ">
+              <div class="card-body">
+                <h5 class="card-title">Python</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card col-12 col-sm-6 col-md-3 col-lg-2 m-auto mt-3 mt-md-0" style="
+                background-color: burlywood;
+                box-shadow: 0 0 2rem rgb(106, 105, 105);
+              ">
+              <div class="card-body">
+                <h5 class="card-title">C</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="jst"
+        class="container d-flex flex-column align-items-center gap-5 pt-5 pb-5"
+      >
+        <button id="t1" class="btn btn-primary">
+          click to start java script task 1
+        </button>
+
+        <button id="t2" class="btn btn-primary">
+          click to start java script task 2
+        </button>
+        <button id="t3" class="btn btn-primary">
+          click to start java script task 3
+        </button>
+
+        <button id="t4" class="btn btn-primary">
+          click to start java script task 4
+        </button>
+
+        <button
+          id="t5"
+          class="btn btn-primary"
+          onclick="alert('Check the console for task 5 output')"
+        >
+          click to start java script task 5
+        </button>
+      </section>
+      <section
+        id="csstask"
+        class="container m-5 d-flex justify-content-center gap-5"
+      >
+        <div class="card bg-success" style="height: 10em; width: 10em">
+          <h5 class="card-title">this is 10em</h5>
+          <p>
+            <strong>em</strong> is relative to the font-size of the element's
+            parent.
+          </p>
+        </div>
+
+        <div class="card bg-success" style="height: 10rem; width: 10rem">
+          <h5 class="card-title">this is 10rem</h5>
+          <p>
+            <strong>rem</strong> is relative to the font-size of the root
+            element (&lt;html&gt;).
+          </p>
+        </div>
+
+        <div class="card bg-success" style="height: 10%; width: 10%">
+          <h5 class="card-title">this is 10%</h5>
+          <p><strong>%</strong> is relative to the parent element.</p>
+        </div>
+
+        <div class="card bg-success" style="height: 200px; width: 200px">
+          <h5 class="card-title">this is 200px</h5>
+          <p><strong>px</strong> is direct only gives the px mentioned.</p>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
